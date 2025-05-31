@@ -6,7 +6,7 @@ console.log("Ünvan:", req.url);
 console.log("Metod:", req.method); 
 console.log("Başlıqlar:", req.headers); 
 
-res.send('Salam! Mənim adım Caviddir.'); 
+res.send('Salam! Mənim adım Amindir.'); 
 }); 
 
 app.get('/card', (req, res) => { 
